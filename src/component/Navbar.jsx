@@ -47,18 +47,25 @@ const Navbar = () => {
         <ul>
           <li>
             <a href='/' className=''>
-              <FaLinkedin />
-            </a>
-            <a href='/'>
-              <FaGithub />
-            </a>
-            <a href='/'>
-              <HiOutlineMail />
-            </a>
-            <a href='/'>
-              <BsFillPersonLinesFill/>
+              <FaLinkedin size={30}/>
             </a>
           </li>
+          <li>
+            <a href='/'>
+              <FaGithub  size={30}/>
+            </a>
+          </li>
+          <li>
+            <a href='/'>
+              <HiOutlineMail  size={30}/>
+            </a>
+          </li>
+          <li>
+            <a href='/'>
+              <BsFillPersonLinesFill size={30}/>
+            </a>
+          </li>
+        
 
 
         </ul>
