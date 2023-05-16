@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Noto+Sans]
+
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
