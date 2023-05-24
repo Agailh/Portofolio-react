@@ -45,24 +45,24 @@ const Navbar = () => {
         <div className='flex fixed flex-col top-[35%] left-0'>
 
         <ul>
-          <li>
-            <a href='/' className=''>
-              <FaLinkedin size={30}/>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-100'>
+            <a href='/' className='flex justify-between items-center w-full text-gray-300'>
+             LinkedIn <FaLinkedin size={30}/>
             </a>
           </li>
-          <li>
-            <a href='/'>
-              <FaGithub  size={30}/>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-100'>
+            <a href='/'  className='flex justify-between items-center w-full text-gray-300'>
+              Github <FaGithub  size={30}/>
             </a>
           </li>
-          <li>
-            <a href='/'>
-              <HiOutlineMail  size={30}/>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-100'>
+            <a href='/' className='flex justify-between items-center w-full text-gray-300'>
+              Email <HiOutlineMail  size={30}/>
             </a>
           </li>
-          <li>
-            <a href='/'>
-              <BsFillPersonLinesFill size={30}/>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-100'>
+            <a href='/' className='flex justify-between items-center w-full text-gray-300'>
+              Call <BsFillPersonLinesFill size={30}/>
             </a>
           </li>
         
