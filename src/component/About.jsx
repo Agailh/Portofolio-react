@@ -10,16 +10,22 @@ const About = () => {
                     About
                 </p>
                 </div>
-                <div>
-
+                <div></div>
                 </div>
-                <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                  <p>
+                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8'>
+                  <div className='sm:text-right text-4xl font-bold'>
+                    <p>
                     Hi, Im Aga , nice to meet you. Welcome and please take a look around.
+                    </p>
+                  </div>
+                  <div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam, eveniet delectus doloribus saepe maxime ratione ipsum nostrum, odit in cupiditate nisi voluptates expedita magni non id quibusdam fugit reiciendis animi quia excepturi aperiam architecto! Nihil reprehenderit unde doloremque cum, voluptatem quam, doloribus earum, eaque fuga ut cumque commodi facilis.
                   </p>
                 </div>
-            </div>
-           
+
+                </div>
+            
         </div>
     </div>
   )
