@@ -12,7 +12,22 @@ import TFL from "../Assets/TFL.png"
 
 const Skills = () => {
   return (
-    <div>Skills</div>
+    <div name='skills'>
+      {/* container */}
+      <div>
+        <div>
+          <p>Experience</p>
+          <p>// These are the technologies I've working with </p>
+        </div>
+
+        <div>
+          <div>
+            <img src={HTML} alt='Html Icon' />
+            <p>HTML</p>
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }
 
