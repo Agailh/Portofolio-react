@@ -1,4 +1,5 @@
 import React from 'react'
+import Project1 from '../Assets/netflix.png'
 
 const Work = () => {
   return (
@@ -10,19 +11,20 @@ const Work = () => {
             </div>
         
 
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+        <div style={{backgroundImage: `url(${Project1})`}}
+         className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
             <div className='shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div'>
                 {/* hover effect */}
-                <div>
-                    <span>
-
+                <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-white tracking-wider'>
+                    React JS application
                     </span>
                     <div>
-                        <a href="/">
-                            <button></button>
+                        <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                            <button>Demo</button>
                         </a>
-                        <a href="/">
-                            <button></button>
+                        <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                            <button>Code</button>
                         </a>
                     </div>
                 </div>
